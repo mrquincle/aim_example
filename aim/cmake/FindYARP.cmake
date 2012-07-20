@@ -148,8 +148,8 @@ IF(YARP_LIB_math)
 ENDIF()
 
 # Debug info
-#MESSAGE("${YARP_INCLUDE_DIR}")
-#MESSAGE("${YARP_LIBRARIES}")
+#MESSAGE("YARP include: ${YARP_INCLUDE_DIR}")
+#MESSAGE("YARP libraries: ${YARP_LIBRARIES}")
 
 # Set the include dir variables and the libraries and let libfind_process do the rest.
 # NOTE: Singular variables for this library, plural for libraries that this lib depends on.
