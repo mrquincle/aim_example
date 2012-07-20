@@ -130,8 +130,8 @@ FIND_LIBRARY(YARP_LIB_math NAMES YARP_math
 # Set the libraries
 SET(YARP_LIBRARIES
   ${YARP_LIB_OS}
-  ${YARP_LIB_dev}
-  ${YARP_LIB_sig}
+#  ${YARP_LIB_dev}
+#  ${YARP_LIB_sig}
   ${YARP_LIB_init}
 )
 
