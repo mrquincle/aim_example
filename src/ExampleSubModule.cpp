@@ -32,6 +32,7 @@ ExampleSubModule::ExampleSubModule() {
 }
 
 void ExampleSubModule::Init(std::string module_id) {
+  ExampleModule::Init(module_id);
   file.open(GetParam()->filename.c_str(), ios::app);
 }
 

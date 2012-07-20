@@ -38,7 +38,7 @@ int main(int argc, char *argv[])  {
 
 	cout << "Make sure you start the yarp server before if build with YARP" << endl;
 	cout << "Then run this binary" << endl;
-	cout << "And connect using \"yarp connect \\examplesubmodule{id}\\sensor\"" << endl;
+	cout << "And connect using \"yarp connect /examplemodule{id}/sensor\"" << endl;
 	if (argc < 3) {
 		std::cout << "Usage: [identifier] [filename]" << endl;
 		return EXIT_FAILURE;
