@@ -24,8 +24,10 @@ The expected result:
 	Read sensor (will be blocking)
 
 Now you can try to write to it, start again another console, and:
+
 * yarp write /write /examplemodule12/sensor
 
+This will output:
 	yarp: Port /write active at tcp://127.0.0.1:10005
 	yarp: Sending output from /write to /examplemodule12/sensor using tcp
 	23 2 3 4
